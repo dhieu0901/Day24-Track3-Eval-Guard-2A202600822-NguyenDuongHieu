@@ -1,0 +1,180 @@
+{
+  "mode": "offline heuristic",
+  "results": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer_a": "Theo chính sách v2024 hiện hành, nhân viên được nghỉ 15 ngày phép năm.",
+      "answer_b": "Nhân viên có 12 ngày phép.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.909,
+        "B": 0.777
+      },
+      "scores_pass2": {
+        "A": 0.909,
+        "B": 0.777
+      }
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer_a": "Nghỉ 3 ngày làm việc có lương khi kết hôn.",
+      "answer_b": "Khi kết hôn, theo quy định chung của công ty thì nhân viên sẽ được sắp xếp một số ngày nghỉ phù hợp tùy trường hợp cụ thể.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.799,
+        "B": 0.767
+      },
+      "scores_pass2": {
+        "A": 0.799,
+        "B": 0.767
+      }
+    },
+    {
+      "question": "Mua thiết bị 55 triệu cần ai phê duyệt?",
+      "answer_a": "Vì 55 triệu vượt ngưỡng 50 triệu nên cần CEO phê duyệt.",
+      "answer_b": "Cần Giám đốc phòng ban phê duyệt khoản chi này.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.821,
+        "B": 0.582
+      },
+      "scores_pass2": {
+        "A": 0.821,
+        "B": 0.582
+      }
+    },
+    {
+      "question": "Thưởng Tết tối thiểu cho nhân viên chính thức ≥6 tháng là bao nhiêu?",
+      "answer_a": "Tối thiểu 1 tháng lương.",
+      "answer_b": "Mức thưởng Tết sẽ được công ty xem xét và quyết định dựa trên nhiều yếu tố khác nhau trong từng năm tài chính.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.685,
+        "B": 0.533
+      },
+      "scores_pass2": {
+        "A": 0.685,
+        "B": 0.533
+      }
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "answer_a": "Không; nhân viên thử việc chưa được hưởng phép năm, nếu cần phải xin nghỉ không lương.",
+      "answer_b": "Có thể được nếu sắp xếp hợp lý.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.808,
+        "B": 0.529
+      },
+      "scores_pass2": {
+        "A": 0.808,
+        "B": 0.529
+      }
+    },
+    {
+      "question": "Nhân viên có được dùng VPN cá nhân khi WFH không?",
+      "answer_a": "Không; VPN cá nhân bị cấm, phải dùng VPN WireGuard của công ty theo chính sách v1.3.",
+      "answer_b": "Được, miễn là đảm bảo kết nối an toàn.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.798,
+        "B": 0.489
+      },
+      "scores_pass2": {
+        "A": 0.798,
+        "B": 0.489
+      }
+    },
+    {
+      "question": "Mật khẩu phải có tối thiểu bao nhiêu ký tự?",
+      "answer_a": "Tối thiểu 12 ký tự theo chính sách mật khẩu v2.",
+      "answer_b": "Mật khẩu cần đủ mạnh và nên thay đổi định kỳ để đảm bảo an toàn cho hệ thống.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.839,
+        "B": 0.528
+      },
+      "scores_pass2": {
+        "A": 0.839,
+        "B": 0.528
+      }
+    },
+    {
+      "question": "Khóa học tài trợ 25 triệu, nghỉ sau 8 tháng phải hoàn trả bao nhiêu?",
+      "answer_a": "Hoàn trả 100% (25 triệu) vì nghỉ trước mốc cam kết 12 tháng.",
+      "answer_b": "Phải hoàn lại một phần chi phí tùy theo thỏa thuận.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.759,
+        "B": 0.502
+      },
+      "scores_pass2": {
+        "A": 0.759,
+        "B": 0.502
+      }
+    }
+  ],
+  "bias_report": {
+    "total_judged": 8,
+    "position_bias_rate": 0.0,
+    "position_bias_count": 0,
+    "verbosity_bias": 0.625,
+    "verbosity_details": {
+      "a_wins_a_longer": 5,
+      "b_wins_b_longer": 0,
+      "total_decisive": 8
+    },
+    "interpretation": "Position bias thấp — judge ổn định."
+  },
+  "cohen_kappa": {
+    "judge_labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "human_labels": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "kappa": 0.2857
+  }
+}

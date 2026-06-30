@@ -14,7 +14,7 @@ define bot refuse jailbreak
 
 define flow check jailbreak
   user ask jailbreak
-  bot refuse jailbreak
+  bot say "Xin lỗi, tôi không thể thực hiện yêu cầu này. Tôi chỉ có thể trả lời các câu hỏi về chính sách nhân sự công ty."
 
 
 define user ask off topic
@@ -32,7 +32,7 @@ define bot refuse off topic
 
 define flow check off topic
   user ask off topic
-  bot refuse off topic
+  bot say "Xin lỗi, tôi chỉ có thể trả lời các câu hỏi về chính sách nội bộ của công ty như nghỉ phép, lương thưởng, bảo hiểm, và các quy trình HR. Bạn có muốn hỏi về chủ đề đó không?"
 
 
 define user ask pii request
@@ -48,7 +48,7 @@ define bot refuse pii request
 
 define flow check pii request
   user ask pii request
-  bot refuse pii request
+  bot say "Xin lỗi, tôi không thể cung cấp thông tin cá nhân của nhân viên cụ thể. Đây là dữ liệu bảo mật theo chính sách phân loại dữ liệu của công ty."
 
 
 # ── Output Rails ──────────────────────────────────────────────────────────────

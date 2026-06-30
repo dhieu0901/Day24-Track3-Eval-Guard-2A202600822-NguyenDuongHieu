@@ -1,0 +1,138 @@
+{
+  "total_questions": 50,
+  "per_distribution": {
+    "factual": {
+      "count": 20,
+      "faithfulness": 0.9022593754480287,
+      "answer_relevancy": 0.8506595238095238,
+      "context_precision": 0.7048776983339458,
+      "context_recall": 0.9201803308823531,
+      "avg_score": 0.8444942321184629
+    },
+    "multi_hop": {
+      "count": 20,
+      "faithfulness": 0.8204885768458577,
+      "answer_relevancy": 0.7607909281384326,
+      "context_precision": 0.6438300391106319,
+      "context_recall": 0.8208857237659866,
+      "avg_score": 0.7614988169652273
+    },
+    "adversarial": {
+      "count": 10,
+      "faithfulness": 0.8797092307692308,
+      "answer_relevancy": 0.7930921623931624,
+      "context_precision": 0.6168310036869449,
+      "context_recall": 0.7574623728841965,
+      "avg_score": 0.7617736924333837
+    }
+  },
+  "failure_clusters": {
+    "matrix": {
+      "faithfulness": {
+        "factual": 0,
+        "multi_hop": 2,
+        "adversarial": 1
+      },
+      "context_recall": {
+        "factual": 0,
+        "multi_hop": 0,
+        "adversarial": 0
+      },
+      "context_precision": {
+        "factual": 17,
+        "multi_hop": 18,
+        "adversarial": 9
+      },
+      "answer_relevancy": {
+        "factual": 3,
+        "multi_hop": 0,
+        "adversarial": 0
+      }
+    },
+    "dominant_failure_distribution": "factual",
+    "dominant_failure_metric": "context_precision",
+    "insight": "Distribution 'factual' có nhiều failure nhất. Metric 'context_precision' là điểm yếu chủ đạo. Gợi ý: Add reranking or metadata filter"
+  },
+  "bottom_10": [
+    {
+      "rank": 1,
+      "question_id": 30,
+      "distribution": "multi_hop",
+      "question": "So sánh quyền lợi bảo hiểm giữa nhân viên thử việc và nhân viên chính thức.",
+      "avg_score": 0.501,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 2,
+      "question_id": 33,
+      "distribution": "multi_hop",
+      "question": "Nhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm theo v2024 là bao nhiêu?",
+      "avg_score": 0.517,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 3,
+      "question_id": 50,
+      "distribution": "adversarial",
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân (như NordVPN) khi WFH để tăng bảo mật thêm không?",
+      "avg_score": 0.5201,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 4,
+      "question_id": 9,
+      "distribution": "factual",
+      "question": "Nam nhân viên được nghỉ bao nhiêu ngày khi vợ sinh con?",
+      "avg_score": 0.6359,
+      "worst_metric": "answer_relevancy"
+    },
+    {
+      "rank": 5,
+      "question_id": 22,
+      "distribution": "multi_hop",
+      "question": "Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",
+      "avg_score": 0.7156,
+      "worst_metric": "context_precision"
+    },
+    {
+      "rank": 6,
+      "question_id": 7,
+      "distribution": "factual",
+      "question": "Nghỉ phép không lương 20 ngày cần ai phê duyệt?",
+      "avg_score": 0.7207,
+      "worst_metric": "answer_relevancy"
+    },
+    {
+      "rank": 7,
+      "question_id": 34,
+      "distribution": "multi_hop",
+      "question": "Nhân viên tạm ứng 4 triệu và một nhân viên khác tạm ứng 7 triệu: quy trình phê duyệt khác nhau thế nào?",
+      "avg_score": 0.7239,
+      "worst_metric": "context_precision"
+    },
+    {
+      "rank": 8,
+      "question_id": 21,
+      "distribution": "multi_hop",
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "avg_score": 0.7246,
+      "worst_metric": "context_precision"
+    },
+    {
+      "rank": 9,
+      "question_id": 45,
+      "distribution": "adversarial",
+      "question": "Có cần kích hoạt xác thực đa yếu tố (MFA) không?",
+      "avg_score": 0.7383,
+      "worst_metric": "context_precision"
+    },
+    {
+      "rank": 10,
+      "question_id": 44,
+      "distribution": "adversarial",
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "avg_score": 0.7516,
+      "worst_metric": "context_precision"
+    }
+  ]
+}
